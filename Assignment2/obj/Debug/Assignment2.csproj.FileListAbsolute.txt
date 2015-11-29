@@ -1,0 +1,9 @@
+c:\users\akhil\documents\visual studio 2013\Projects\Assignment2\Assignment2\bin\Debug\Assignment2.exe.config
+c:\users\akhil\documents\visual studio 2013\Projects\Assignment2\Assignment2\bin\Debug\Assignment2.exe
+c:\users\akhil\documents\visual studio 2013\Projects\Assignment2\Assignment2\bin\Debug\Assignment2.pdb
+c:\users\akhil\documents\visual studio 2013\Projects\Assignment2\Assignment2\obj\Debug\Assignment2.outputForm.resources
+c:\users\akhil\documents\visual studio 2013\Projects\Assignment2\Assignment2\obj\Debug\Assignment2.Properties.Resources.resources
+c:\users\akhil\documents\visual studio 2013\Projects\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.GenerateResource.Cache
+c:\users\akhil\documents\visual studio 2013\Projects\Assignment2\Assignment2\obj\Debug\Assignment2.exe
+c:\users\akhil\documents\visual studio 2013\Projects\Assignment2\Assignment2\obj\Debug\Assignment2.pdb
+c:\users\akhil\documents\visual studio 2013\Projects\Assignment2\Assignment2\obj\Debug\Assignment2.inputForm.resources

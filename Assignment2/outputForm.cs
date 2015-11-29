@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * Developers: Akhil Thakkar & Tyler Hollmann
+ * Created: Nov 28, 2015
+ * Version: 1.0.0
+ * Purpose: Read employee information from a text file and display it to the end user to iterate through.
+ */
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +20,7 @@ namespace Assignment2
 {
     public partial class outputForm : Form
     {
+        // Declare constant variables
         private const double HOURLY_WAGE_CONST = 10.50; 
         // Declare Class-level variable
         private int FieldCountInteger = 0;
@@ -31,7 +39,6 @@ namespace Assignment2
         {
             // Custom method to display records in a set of TextBoxes
             string FirstFieldString, SecondFieldString, thirdFieldString;
-
             FirstFieldString = FieldString[FieldCountInteger];
             SecondFieldString = FieldString[FieldCountInteger + 1];
             thirdFieldString = FieldString[FieldCountInteger + 2];
@@ -51,6 +58,7 @@ namespace Assignment2
             } // end try
             catch
             {
+                // If there are no more records to display tell the user
                 MessageBox.Show("No more records to display.", "End of Data");
                 FieldCountInteger -= 3;
             }
@@ -58,6 +66,7 @@ namespace Assignment2
 
         private void inputFormToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // Switch back to the input form
             this.Hide();
             (new inputForm()).Show();
         }
